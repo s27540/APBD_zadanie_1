@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-
 public class Max
 {
 
@@ -24,7 +23,9 @@ public class Max
         double res = 0.0;
         for (int i = 0; i < arr.Length; i++)
         {
+            Console.WriteLine(result);
             res += arr[i];
+
         }
 
         return res/arr.Length;
