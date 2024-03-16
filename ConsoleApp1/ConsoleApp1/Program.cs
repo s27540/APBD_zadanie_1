@@ -20,12 +20,14 @@ public class Max
   
     public static double avg(int[] arr)
     {
-        double result = 0.0;
+        double res = 0.0;
         for (int i = 0; i < arr.Length; i++)
         {
-            result += arr[i];
             Console.WriteLine(result);
+            res += arr[i];
+
         }
-        return result/arr.Length;
+
+        return res/arr.Length;
     }
 }
